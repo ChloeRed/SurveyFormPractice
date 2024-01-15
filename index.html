@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Pumpkin's Survey</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+<body>
+</body>
+
+<div class="header">
+  <h1 id="title">Pumpkin's Survey</h1>
+  <p id="description">Are you compatible to live with pumpkin? Take the test to find out! </p>
+</div>
+
+<form id="survey-form">
+ 
+  <label id="name-label">Name: <input id="name" type="text" required placeholder="Chloe"></label>
+ 
+  <label id="email-label">Email: <input id="email" type="email" required placeholder="ilovepumpkin@cat.org"> </label>
+ 
+  <label id="number-label">Age: <input id="number" type="number" min="0" max="100" placeholder="12"> </label>
+ 
+  <label>Select your favorite thing about cats:
+  <select id="dropdown">
+    <option>Fluffiness</option>
+    <option>Squeakiness</option>
+    <option>Smelliness</option>
+    <option>Cudliness</option>
+  </select>
+  </label>
+  
+  <label class="inline">Would you let your cat play with ice? <input class="inline" type="radio" name="ice" value="yes">Yes</input> <input class="inline" type="radio" name="ice" value="no">No </input></label>
+  
+  <label>What would you feed Pumpkin?
+    <input type="checkbox" value="Dry Food">Dry Food</input>
+    <input type="checkbox" value="Cheese">Cheese</input>
+    <input type="checkbox" value="Wet Food">Wet Food</input>
+    <input type="checkbox" value="Chicken">Chicken</input>
+    <input type="checkbox" value="Candy">Candy</input>
+    </label>
+
+    <label>Any additional comments?<textarea></textarea><label>
+
+    <button type = "submit" id="submit">Submit </button>
+
+
+</form>
+</html>
